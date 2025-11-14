@@ -28,7 +28,7 @@ services:
     depends_on:
       - db
     networks:
-      - backend_net
+      - frontend_net
 
   proxy:
     build: ./proxy
